@@ -1,0 +1,25 @@
+{
+  "name": "linux_pkg_net",
+  "version": "0.0.1",
+  "description": "Create graph network of debian packages",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "graph",
+    "network",
+    "debian",
+    "popularity",
+    "contest"
+  ],
+  "author": "GustavoKatel (gbritosampaio@gmail.com)",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^0.9.0",
+    "commander": "^2.8.1",
+    "fast-csv": "^0.6.0",
+    "hashtable": "^1.0.3",
+    "lodash": "^3.7.0"
+  }
+}
